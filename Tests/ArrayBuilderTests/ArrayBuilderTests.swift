@@ -1,5 +1,5 @@
 import XCTest
-@testable import ArrayBuilder
+import ArrayBuilder
 
 final class ArrayBuilderTests: XCTestCase {
 	static var allTests = [
