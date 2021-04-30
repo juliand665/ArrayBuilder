@@ -4,7 +4,7 @@ public extension Array {
 	}
 }
 
-@_functionBuilder
+@resultBuilder
 public enum ArrayBuilder<Element> {
 	public static func buildExpression(_ element: Element) -> [Element] {
 		[element]
