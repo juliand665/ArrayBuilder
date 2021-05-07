@@ -1,6 +1,6 @@
 public extension Array {
-	init(@ArrayBuilder<Element> contents: () -> [Element]) {
-		self = contents()
+	init(@ArrayBuilder<Element> contents: () throws -> [Element]) rethrows {
+		self = try contents()
 	}
 }
 
