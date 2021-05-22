@@ -8,7 +8,7 @@ final class ArrayBuilderTests: XCTestCase {
 	]
 	
 	func testBasicStrings() {
-		XCTAssertEqual(Array<String> {
+		XCTAssertEqual([String].build {
 			"one"
 			["two", "three"]
 			
